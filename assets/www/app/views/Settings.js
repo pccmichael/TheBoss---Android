@@ -28,7 +28,8 @@
             style: 'margin:2%;',
             handler: function(){
 				localStorage.setItem("userId","pccmichael");
-				localStorage.setItem("userId","password");
+				localStorage.setItem("userPassword","password");
+				alert(localStorage.getItem("userID"))
             }
         }]
     }]
